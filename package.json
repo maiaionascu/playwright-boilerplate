@@ -6,7 +6,7 @@
   "scripts": {
     "format": "npx prettier --write .",
     "test:headed": "npx cross-env BASE_URL=https://www.saucedemo.com/ playwright test --headed",
-    "test": "npx playwright test",
+    "test": "npx cross-env BASE_URL=https://www.saucedemo.com/ playwright test",
     "test:headed:api": "npx cross-env BASE_URL=https://www.saucedemo.com/ playwright test --config=playwright.api.config.ts --headed",
     "test:headed:e2e": "npx cross-env BASE_URL=https://www.saucedemo.com/ playwright test --config=playwright.e2e.config.ts --headed",
     "test:headed:visual": "npx cross-env BASE_URL=https://www.saucedemo.com/ playwright test --config=playwright.visual.config.ts --headed",
