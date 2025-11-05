@@ -23,4 +23,4 @@ Install dependencies:
 npm install
 
 npm run test:headed 
-npm tun test
+npm run test
