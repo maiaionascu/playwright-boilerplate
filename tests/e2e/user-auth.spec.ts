@@ -1,6 +1,5 @@
 import { test, expect } from '../../base';
 
-//const baseUrl = 'https://www.saucedemo.com/';
 const baseUrl = `${process.env.BASE_URL}`;
 
 test.describe('User authentication', () => {

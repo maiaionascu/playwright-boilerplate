@@ -27,10 +27,8 @@ test.describe('API Test Automation Suite', async () => {
     });
 
     const respBody = await response.json();
-    // console.log(respBody)
 
     expect(respBody.email).toBe(randomEmail);
-
     expect(response.status()).toBe(201);
   });
 });

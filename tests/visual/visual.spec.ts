@@ -8,6 +8,6 @@ test.describe('Visual', () => {
   });
 
   test('visual  test on homepage', async ({ page }) => {
-    expect(await page.screenshot()).toMatchSnapshot('snapshot.png');
+    expect(await page.screenshot()).toMatchSnapshot('homepage.png');
   });
 });
